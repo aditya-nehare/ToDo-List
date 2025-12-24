@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9dfcd;
+  color: #1f2937;
+}
+
+h1 {
+  font-family: "Grenze Gotisch", serif;
+  text-align: center;
+  font-size: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1.5 rem;
+  padding: 10px;
+}
+
+.container > button {
+  margin-top: 10px;
+  width: 100px;
+  height: 36px;
+  border-radius: 20px;
+  border: 1.1px solid #2a2a2a;
+  color: #1e1e1e;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.list-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo {
+  width: 500px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center; /* vertical alignment */
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 16px 20px;
+}
+
+.todo p {
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.actions > button {
+  font-size: 1.2rem;
+  width: 65px;
+  height: 30px;
+  border-radius: 10px;
+}
