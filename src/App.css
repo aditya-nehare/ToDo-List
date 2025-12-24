@@ -60,6 +60,7 @@ h1 {
   border-radius: 10px;
   background-color: aliceblue;
   padding: 16px 20px;
+  margin: 8px;
 }
 
 .todo p {
